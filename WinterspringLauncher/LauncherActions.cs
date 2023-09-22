@@ -141,7 +141,7 @@ public static class LauncherActions
         else
             configContent = new List<string>();
 
-        var newLine = "SET portal \"127.0.0.1:1119\"";
+        var newLine = "SET portal \"127.0.0.1:31119\"";
         bool wasChanged = false;
 
         var currentPortalLine = configContent.FindIndex(l => l.StartsWith("SET portal "));
